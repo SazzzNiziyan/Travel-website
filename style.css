@@ -9,6 +9,7 @@ html, body {
   width: 100%;
   background-color: #E1E1E3;
   font-family: Gilroy;
+  margin-top: 1rem;
 }
 
 header nav {
@@ -103,7 +104,7 @@ main .page-1 .right-side {
   display: grid;
   max-width: 40%;
   margin: 5rem 0 5rem 10rem;
-  gap: 2rem;
+  gap: 4rem;
   grid-template-areas: ". . b b" "a a b b" "a a b b" "a a b b" "a a c c" "a a c c" ". . c c";
 }
 main .page-1 .right-side img {
@@ -125,4 +126,94 @@ main .page-1 .right-side .image-2 {
 main .page-1 .right-side .image-c {
   grid-area: c;
   aspect-ratio: 4/3;
+}
+main .page-2 {
+  height: 100vh;
+  margin: 2rem 8rem 0 8rem;
+  padding-top: 3rem;
+}
+main .page-2 h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: -0.1rem;
+}
+main .page-2 .destination {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 1.5rem;
+}
+main .page-2 .destination a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 400;
+}
+main .page-2 .destination a:nth-child(1) {
+  font-weight: 600;
+}
+main .page-2 .destination .dropbtn {
+  color: #666666;
+  border: none;
+  background-color: #E1E1E3;
+  box-shadow: none;
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 1rem;
+}
+main .page-2 .destination .dropdown {
+  position: relative;
+  display: inline-block;
+}
+main .page-2 .destination .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+main .page-2 .destination .dropdown-content a {
+  color: rgb(89, 89, 89);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+main .page-2 .destination .dropdown-content a:hover {
+  background-color: #ddd;
+}
+main .page-2 .destination .dropdown:hover .dropdown-content {
+  display: block;
+}
+main .page-2 .destination .dropdown:hover .dropbtn {
+  color: black;
+}
+main .page-2 .destination button {
+  padding: 1rem 2rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 2px black;
+  font-weight: 700;
+}
+main .page-2 .destination-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+main .page-2 .destination-2 img {
+  width: 100%;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+main .page-2 .destination-2 h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: -0.1rem;
 }/*# sourceMappingURL=style.css.map */

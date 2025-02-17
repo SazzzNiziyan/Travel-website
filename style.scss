@@ -7,4 +7,63 @@
 html, body{
     height: 100%;
     width: 100%;
+    background-color: #E1E1E3;
+    font-family: Gilroy;
+}
+
+header{
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 19rem;
+
+
+        .logo{
+            display: flex;
+            align-items: center;
+            img{
+                width: 2rem;
+            }
+            p{
+                font-size: 1rem;
+                margin-left: 0.5rem;
+                font-weight: 800;
+                // text-transform: uppercase; 
+                font-family: "Countryside";
+            }
+        }
+
+
+        .option{
+            display: flex;
+            gap: 2.5rem;
+            a{
+                text-decoration: none;
+                color: #000;
+                font-size: 1rem;
+                text-shadow: .8px .8px 0px #000000;
+            }
+        }
+
+        .search-bar{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            a{
+                text-decoration: none;
+                color: #000;
+                font-size: 1rem;
+                font-weight: 600;
+            }
+            button{
+                padding: 0.5rem 1rem;
+                border: none;
+                border-radius: 5px;
+                background-color: #000;
+                color: #fff;
+                font-weight: 700;
+            }
+        }
+    }
 }

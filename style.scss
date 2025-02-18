@@ -232,6 +232,12 @@ main{
                 height: 450px;
                 object-fit: cover;
                 border-radius: 1rem;
+                margin-bottom: 0.8rem;
+            }
+
+            img:hover{
+                transform: scale(1.05);
+                transition: transform 0.3s ease-in-out;
             }
 
             h1{

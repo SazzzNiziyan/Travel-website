@@ -672,3 +672,31 @@ footer{
     }
 }
 
+.copy-right{
+    display: flex;
+    padding: 1rem 0 1rem 2rem;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    p{
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .madeby{
+        display: flex;
+        gap: 1rem;
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 600;
+            padding: 0 2rem 0 0
+            ;
+        }
+    }
+}
+

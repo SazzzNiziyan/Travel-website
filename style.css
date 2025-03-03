@@ -302,4 +302,55 @@ main .page-3 .stories .right-side .block-1 .content p:nth-child(3) {
 main .page-3 .stories .right-side .block-1 .content h4 {
   font-size: 1.3rem;
   font-weight: 600;
+}
+main .page-4 {
+  height: 100vh;
+  margin: 2rem 8rem 0 8rem;
+  padding-top: 3rem;
+}
+main .page-4 h2 {
+  font-size: 3rem;
+  margin-bottom: 3.3rem;
+  font-weight: 500;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+main .page-4 .left-side {
+  width: 40%;
+}
+main .page-4 .left-side .name {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1.5rem;
+}
+main .page-4 .left-side .name img {
+  width: 6rem;
+  height: 6rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+main .page-4 .left-side .name .details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .page-4 .left-side .name .details h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+main .page-4 .left-side .name .details p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+main .page-4 .left-side .star {
+  padding-bottom: 0.3rem;
+}
+main .page-4 .left-side .star .ri-star-smile-fill {
+  color: #ecc902;
+  font-size: 1.5rem;
+}
+main .page-4 .left-side .content h5 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=style.css.map */

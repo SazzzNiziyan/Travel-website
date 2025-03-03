@@ -108,7 +108,6 @@ main .page-1 .right-side {
   grid-template-areas: ". . b b" "a a b b" "a a b b" "a a b b" "a a c c" "a a c c" ". . c c";
 }
 main .page-1 .right-side img {
-  background-color: #666666;
   border-radius: 1rem;
   -o-object-fit: cover;
      object-fit: cover;
@@ -221,4 +220,29 @@ main .page-2 .destination-2 h1 {
   font-weight: 500;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   letter-spacing: -0.1rem;
+}
+main .page-3 {
+  height: 100vh;
+  margin: 2rem 8rem 0 8rem;
+  padding-top: 3rem;
+}
+main .page-3 .heading {
+  display: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  justify-content: space-between;
+}
+main .page-3 .heading h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  letter-spacing: -0.1rem;
+}
+main .page-3 .heading button {
+  height: 3rem;
+  text-align: center;
+  padding: 1rem 2rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 2px black;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */

@@ -452,10 +452,6 @@ main .page-4 .content-main .right-side .content h5 {
   margin-top: -1rem;
   margin-bottom: 3.4rem;
 }
-main .page-4 .content-main .right-side .content p {
-  font-size: 1rem;
-  font-weight: 400;
-}
 main .page-4 .content-main .right-side .content button {
   padding: 1rem 2rem;
   border: 1px solid black;
@@ -742,6 +738,7 @@ footer .content .right .option-2 a {
     aspect-ratio: 4/3;
   }
   main .page-2 {
+    height: auto;
     margin: 0 1rem 0 1rem;
   }
   main .page-2 h1 {
@@ -755,23 +752,135 @@ footer .content .right .option-2 a {
     width: 100%;
     height: 150px;
   }
-  main .banner {
-    height: 40vh;
+  main .page-3 {
+    margin: 0 0 0 1rem;
   }
-  main .banner img {
-    height: 40vh;
+  main .page-3 .heading h2 {
+    font-size: 2rem;
+    margin-bottom: -0.9rem;
   }
-  main .banner .content h1 {
-    font-size: 2.5rem;
-  }
-  main .banner .content input {
-    padding: 0.5rem 1rem;
-  }
-  main .banner .content button {
+  main .page-3 .heading button {
     padding: 0.5rem 1rem;
     font-size: 0.7rem;
   }
-  main .banner .content p {
-    font-size: 0.7rem;
+  main .page-3 .stories {
+    display: block;
+  }
+  main .page-3 .stories .left-side {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  main .page-3 .stories .left-side img {
+    width: 100%;
+    height: 250px;
+  }
+  main .page-3 .stories .left-side p {
+    width: 100%;
+    overflow-y: hidden;
+  }
+  main .page-3 .stories .left-side h4 {
+    font-size: 1rem;
+  }
+  main .page-3 .stories .right-side .block-1 img {
+    min-width: 10rem;
+    height: 10rem;
+  }
+  main .page-3 .stories .right-side .block-1 .content p {
+    padding-top: 0.4rem;
+  }
+  main .page-3 .stories .right-side .block-1 .content p:nth-child(3) {
+    color: red;
+  }
+  main .page-3 .stories .right-side .block-1 .content h4 {
+    font-size: 1rem;
+  }
+  main .page-4 {
+    height: auto;
+    margin: 25rem 1rem 0 1rem;
+    padding-top: 3rem;
+  }
+  main .page-4 h2 {
+    font-size: 2.3rem;
+  }
+  main .page-4 p {
+    margin-top: 1rem;
+    margin-left: 1.6rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+  main .page-4 .content-main {
+    display: block;
+    margin: 0 0 4rem 0;
+  }
+  main .page-4 .content-main .left-side {
+    width: 100%;
+  }
+  main .page-4 .content-main .left-side .name {
+    display: block;
+    padding-left: 7.5rem;
+  }
+  main .page-4 .content-main .left-side .name img {
+    width: 10rem;
+    height: 10rem;
+  }
+  main .page-4 .content-main .left-side .name .details {
+    gap: 0;
+  }
+  main .page-4 .content-main .left-side .name .details h3 {
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+  }
+  main .page-4 .content-main .left-side .name .details p {
+    font-size: 1rem;
+    text-align: start;
+  }
+  main .page-4 .content-main .left-side .star {
+    padding-left: 8rem;
+    padding-bottom: 2rem;
+  }
+  main .page-4 .content-main .left-side .content h5 {
+    font-size: 1.3rem;
+  }
+  main .page-4 .content-main .left-side .content p {
+    font-size: 1rem;
+    margin-left: 0.1rem;
+  }
+  main .page-4 .content-main .right-side {
+    gap: 0.8rem;
+    width: 100%;
+  }
+  main .page-4 .content-main .right-side .carousel {
+    width: 15rem;
+    height: 20rem;
+  }
+  main .page-4 .content-main .right-side .carousel-item img {
+    width: 15rem;
+    height: 20rem;
+  }
+  main .page-4 .content-main .right-side .video {
+    width: 7rem;
+    height: 7rem;
+  }
+  main .page-4 .content-main .right-side .video video {
+    width: 100%;
+    height: 100%;
+  }
+  main .page-4 .content-main .right-side .video #playPauseBtn {
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+  }
+  main .page-4 .content-main .right-side .content h5 {
+    font-size: 0.8rem;
+    margin-top: -4rem;
+  }
+  main .page-4 .content-main .right-side .content button {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    width: 9rem;
+    align-self: flex-start;
+  }
+  footer {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

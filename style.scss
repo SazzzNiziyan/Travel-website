@@ -487,10 +487,6 @@ main{
                         margin-top: -1rem;
                         margin-bottom: 3.4rem;
                     }
-                    p{
-                        font-size: 1rem;
-                        font-weight: 400;
-                    }
                     button{
                         padding: 1rem 2rem;
                         border: 1px solid black;
@@ -798,6 +794,7 @@ footer{
             }
         }
         .page-2{
+            height: auto;
             margin: 0 1rem 0 1rem;
             h1{
                 font-size: 2rem;
@@ -814,30 +811,157 @@ footer{
             }
         }
         .page-3{
-            
-        }
-
-        .banner{
-            height: 40vh;
-            img{
-                height: 40vh;
-            }
-            .content{
-                h1{
-                    font-size: 2.5rem;
-                }
-                input{
-                    padding:.5rem 1rem;
+            margin: 0 0 0 1rem;
+            .heading{
+                h2{
+                    font-size: 2rem;
+                    margin-bottom: -0.9rem;
                 }
                 button{
-                    padding:.5rem 1rem;
-                    font-size:.7rem;
+                    padding: .5rem 1rem;
+                    font-size: .7rem;
                 }
-                p{
-                    font-size:.7rem;
+            }
+            .stories{
+                display: block;
+                .left-side{
+                    max-width: 100%;
+                    margin-bottom: 2rem;
+                    img{
+                        width: 100%;
+                        height: 250px;
+                    }
+                    p{
+                        width: 100%;
+                        overflow-y: hidden;
+                    }
+                    h4{
+                        font-size: 1rem;
+                    }
+                }
+                .right-side{
+                    .block-1{
+                        img{
+                             min-width: 10rem;
+                             height: 10rem;
+                        }
+                        .content{
+                            p{
+                                padding-top: 0.4rem;
+                            }
+                            p:nth-child(3){
+                                color: red;
+                            }
+                            h4{
+                                font-size: 1rem;
+                            }
+                        }
+                    }
                 }
             }
         }
+        .page-4{
+            height: auto;
+            margin: 25rem 1rem 0 1rem;
+            padding-top: 3rem;
+            h2{
+                font-size: 2.3rem;
+            }
+            p{
+                margin-top: 1rem;
+                margin-left: 1.6rem;
+                font-size: 1.5rem;
+                font-weight: 400;
+                margin-bottom: 2rem;
+            }
+            .content-main{
+                display: block;
+                margin: 0 0 4rem 0;
+                .left-side{
+                    width: 100%;
+                    .name{
+                        display: block;
+                        padding-left:7.5rem ;
+                        img{
+                            width: 10rem;
+                            height: 10rem;
+
+                        }
+                        .details{
+                            gap: 0;
+                            h3{
+                                padding-left: 1.5rem;
+                                font-size: 1.5rem;
+                                // text-align: center;
+                            }
+                            p{
+                                font-size: 1rem;
+                                text-align: start;
+                            }
+                        }
+                    }
+                    .star{
+                        
+                            padding-left: 8rem;
+                            padding-bottom: 2rem;
+                        
+                    }
+                    .content{
+                        h5{
+                            font-size: 1.3rem;
+                        }
+                        p{
+                            font-size: 1rem;
+                            // padding-left: -3rem;
+                            margin-left: 0.1rem;
+                        }
+                    }
+                }
+                .right-side{
+                    gap: 0.8rem;
+                    width: 100%;
+                    .carousel{
+                        width: 15rem;
+                        height: 20rem;
+                    }
+                    .carousel-item img {
+                        width: 15rem;
+                        height: 20rem;
+                }
+                    .video{
+                        width: 7rem;
+                        height: 7rem;
+                        video{
+                            width: 100%;
+                            height: 100%;
+                        }
+                        #playPauseBtn {
+                            padding: 1rem 1rem;
+                            margin-top: 1rem;
+                        }
+                    }
+                    .content{
+                        h5{
+                            font-size: 0.8rem;
+                            margin-top: -4rem;
+                        }
+                        button{
+                            padding: 0.5rem;
+                            font-size: 0.9rem;
+                            width: 9rem;
+                            align-self: flex-start;
+                        }
+                    }
+                }
+            }
+           
+        }
+        .banner{
+            
+        }
+    }
+    footer{
+        display: none;
     }
 }
 

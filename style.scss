@@ -830,6 +830,8 @@ footer{
             }
             .stories{
                 display: block;
+                position: relative;
+
                 .left-side{
                     max-width: 100%;
                     margin-bottom: 2rem;
@@ -1001,5 +1003,51 @@ footer{
             }
         }
     }
+}
+
+@media (max-width:400px){
+    
+   main{
+    .page-3{
+        .heading{
+            button{
+                display: none;
+            }
+        }
+    }
+    .page-4{
+        h2{
+            font-size: 1.8rem;
+            margin-top: 7rem;
+        }
+        .right-side{
+            .carousel{
+                margin-left: 4rem;
+            }
+            .video{
+            video{
+                display: none;
+            }
+            
+        }
+        .content{
+            h5{
+                display: none;
+            }
+            button{
+                display: none;
+            }
+        }
+        }
+    }
+    .banner{
+        .content{
+            input{
+                padding: 1rem 2rem;
+                font-size: 1rem;
+            }
+        }
+    }
+   }
 }
 

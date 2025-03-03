@@ -772,6 +772,7 @@ footer .content .right .option-2 a {
   }
   main .page-3 .stories {
     display: block;
+    position: relative;
   }
   main .page-3 .stories .left-side {
     max-width: 100%;
@@ -918,5 +919,30 @@ footer .content .right .option-2 a {
   }
   .copy-right .madeby a {
     font-size: 0.8rem;
+  }
+}
+@media (max-width: 400px) {
+  main .page-3 .heading button {
+    display: none;
+  }
+  main .page-4 h2 {
+    font-size: 1.8rem;
+    margin-top: 7rem;
+  }
+  main .page-4 .right-side .carousel {
+    margin-left: 4rem;
+  }
+  main .page-4 .right-side .video video {
+    display: none;
+  }
+  main .page-4 .right-side .content h5 {
+    display: none;
+  }
+  main .page-4 .right-side .content button {
+    display: none;
+  }
+  main .banner .content input {
+    padding: 1rem 2rem;
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -659,6 +659,7 @@ footer .content .right .option-2 a {
   body, html {
     margin-top: 0;
     padding: 0.1rem;
+    overflow-x: hidden;
   }
   header nav {
     justify-content: space-between;
@@ -691,6 +692,7 @@ footer .content .right .option-2 a {
     height: auto;
     display: block;
     margin-bottom: 7rem;
+    position: relative;
   }
   main .page-1 .left-side {
     width: 80%;
@@ -712,7 +714,7 @@ footer .content .right .option-2 a {
     width: 8rem;
     font-size: 0.7rem;
     position: absolute;
-    top: 70%;
+    top: 105%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -753,15 +755,20 @@ footer .content .right .option-2 a {
     height: 150px;
   }
   main .page-3 {
+    position: relative;
     margin: 0 0 0 1rem;
   }
   main .page-3 .heading h2 {
     font-size: 2rem;
-    margin-bottom: -0.9rem;
+    margin-bottom: 0.9rem;
   }
   main .page-3 .heading button {
     padding: 0.5rem 1rem;
     font-size: 0.7rem;
+    position: absolute;
+    top: 143%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   main .page-3 .stories {
     display: block;
@@ -859,8 +866,8 @@ footer .content .right .option-2 a {
     height: 20rem;
   }
   main .page-4 .content-main .right-side .video {
-    width: 7rem;
-    height: 7rem;
+    width: 9rem;
+    height: 9rem;
   }
   main .page-4 .content-main .right-side .video video {
     width: 100%;
@@ -880,7 +887,36 @@ footer .content .right .option-2 a {
     width: 9rem;
     align-self: flex-start;
   }
+  main .banner {
+    height: 50vh;
+  }
+  main .banner img {
+    height: 50vh;
+  }
+  main .banner .content h1 {
+    font-size: 1.5rem;
+    margin-bottom: -0.9rem;
+    line-height: -5rem;
+  }
+  main .banner .content input {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  main .banner .content button {
+    padding: 0.8rem 1rem;
+    font-size: 1.2rem;
+  }
+  main .banner .content p {
+    font-size: 0.8rem;
+  }
   footer {
     display: none;
+  }
+  .copy-right p {
+    font-size: 0.5rem;
+  }
+  .copy-right .madeby a {
+    font-size: 0.8rem;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -703,7 +703,7 @@ footer{
     body,html{
         margin-top: 0;
         padding: 0.1rem;
-        // width: 89%;
+        overflow-x: hidden;
     }
     header{
         nav{
@@ -743,6 +743,7 @@ footer{
             height: auto;
             display: block;
             margin-bottom: 7rem;
+            position: relative;
             .left-side{
                 width: 80%;
                 margin: 5rem 0 0 2rem;
@@ -762,7 +763,7 @@ footer{
                     width: 8rem;
                     font-size: .7rem;
                     position: absolute;
-                    top: 70%;
+                    top: 105%;
                     left: 50%;
                     transform: translate(-50%, -50%);
                 }
@@ -811,15 +812,20 @@ footer{
             }
         }
         .page-3{
+            position: relative;
             margin: 0 0 0 1rem;
             .heading{
                 h2{
                     font-size: 2rem;
-                    margin-bottom: -0.9rem;
+                    margin-bottom: 0.9rem;
                 }
                 button{
                     padding: .5rem 1rem;
                     font-size: .7rem;
+                    position: absolute;
+                    top: 143%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
                 }
             }
             .stories{
@@ -929,8 +935,8 @@ footer{
                         height: 20rem;
                 }
                     .video{
-                        width: 7rem;
-                        height: 7rem;
+                        width: 9rem;
+                        height: 9rem;
                         video{
                             width: 100%;
                             height: 100%;
@@ -957,11 +963,43 @@ footer{
            
         }
         .banner{
-            
+            height: 50vh;
+            img{
+                height: 50vh;
+            }
+            .content{
+                h1{
+                    font-size: 1.5rem;
+                    margin-bottom: -0.9rem;
+                    line-height: -5rem;
+                }
+                input{
+                    padding: 1rem 3rem;
+                    font-size: 1.5rem;
+                    margin-left: 1rem;
+                }
+                button{
+                    padding: 0.8rem 1rem;
+                    font-size: 1.2rem;
+                }
+                p{
+                    font-size: 0.8rem;
+                }
+            }
         }
     }
     footer{
         display: none;
+    }
+    .copy-right{
+        p{
+            font-size: 0.5rem;
+        }
+        .madeby{
+            a{
+                font-size: 0.8rem;
+            }
+        }
     }
 }
 

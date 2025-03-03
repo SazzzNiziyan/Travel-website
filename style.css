@@ -364,21 +364,78 @@ main .page-4 .content-main .right-side {
   gap: 2rem;
   grid-template-areas: "a a b b" "a a b b" "a a c c" "a a c c";
 }
-main .page-4 .content-main .right-side img {
+main .page-4 .content-main .right-side .carousel {
+  position: relative;
+  width: 25rem;
+  height: 35rem;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  grid-area: a;
+}
+main .page-4 .content-main .right-side .carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+main .page-4 .content-main .right-side .carousel-item {
+  min-width: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+main .page-4 .content-main .right-side .carousel-item img {
   width: 25rem;
   height: 35rem;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 1rem;
-  grid-area: a;
 }
-main .page-4 .content-main .right-side video {
+main .page-4 .content-main .right-side .carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+main .page-4 .content-main .right-side .carousel-control.prev {
+  left: 10px;
+}
+main .page-4 .content-main .right-side .carousel-control.next {
+  right: 10px;
+}
+main .page-4 .content-main .right-side .video {
+  position: relative;
   width: 22rem;
   height: 20rem;
+}
+main .page-4 .content-main .right-side .video video {
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 1rem;
   grid-area: b;
+}
+main .page-4 .content-main .right-side .video #playPauseBtn {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3rem 3rem;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5411764706);
+  color: #000000;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: opacity 0.3s ease-in-out;
+}
+main .page-4 .content-main .right-side .video #playPauseBtn:hover {
+  opacity: 1;
 }
 main .page-4 .content-main .right-side .content {
   display: flex;
@@ -404,4 +461,8 @@ main .page-4 .content-main .right-side .content button {
   font-weight: 700;
   width: 13rem;
   align-self: flex-end;
+}
+main .page-4 .content-main .right-side .content button:hover {
+  background-color: #000;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

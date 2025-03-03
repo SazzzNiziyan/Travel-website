@@ -535,22 +535,26 @@ footer .content {
   justify-content: space-between;
   gap: 10rem;
 }
+footer .content .left {
+  width: 45%;
+}
 footer .content .left .logo {
   display: flex;
   align-items: center;
+  margin-bottom: 3rem;
 }
 footer .content .left .logo img {
-  width: 4rem;
+  width: 3rem;
 }
 footer .content .left .logo p {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-left: 1rem;
   font-weight: 800;
   font-family: "Countryside";
 }
 footer .content .left p {
   margin-top: 1rem;
-  margin-left: 5rem;
+  margin-left: 1.6rem;
   font-size: 1.5rem;
   font-weight: 400;
 }
@@ -558,10 +562,70 @@ footer .content .left .social-media {
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
-  margin-left: 5rem;
+  margin-left: 1rem;
 }
 footer .content .left .social-media a {
   text-decoration: none;
   color: #000;
   font-size: 2rem;
+}
+footer .content .right {
+  margin-top: 2rem;
+  display: flex;
+  gap: 5rem;
+}
+footer .content .right .option {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+footer .content .right .option a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+}
+footer .content .right .option h3 {
+  padding-bottom: 1.3rem;
+  font-size: 1.5rem;
+}
+footer .content .right .contact {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+footer .content .right .contact a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+}
+footer .content .right .contact p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+footer .content .right .travel-destination {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+footer .content .right .travel-destination a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+}
+footer .content .right .travel-destination p {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1.3rem;
+  text-transform: uppercase;
+}
+footer .content .right .option-2 {
+  display: flex;
+  min-width: 7rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+footer .content .right .option-2 a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */

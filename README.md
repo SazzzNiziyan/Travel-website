@@ -37,7 +37,4 @@ We would like to thank the following contributors for their valuable contributio
 
 - [SazzzNiziyan](https://github.com/SazzzNiziyan)
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
